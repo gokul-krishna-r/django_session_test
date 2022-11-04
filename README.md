@@ -6,8 +6,8 @@
 2) Clone the repo from your profile
 3) ```bash 
    pip install -r requirements.txt
-   python mange.py makemigrations
-   python mange.py migrate
+   python manage.py makemigrations
+   python manage.py migrate
    python manage.py runserver
     ```
 
