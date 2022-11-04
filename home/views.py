@@ -4,4 +4,5 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(requesst):
-    return render(requesst, "index.html")
+    context = {"text": "Start building"}
+    return render(requesst, "index.html", context=context)
